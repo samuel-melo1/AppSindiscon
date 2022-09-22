@@ -28,6 +28,7 @@ public class Cadastros_usuarioController {
     @GetMapping
     public List<Cadastros_usuario> findAll() {
         return repository.findAll();
+	// teste
     }
 
     @GetMapping(path = { "/{id}" })
