@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-AppSidusconApplication<AppSiduscon>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.siduscon.AppSiduscon.AppSidusconApplication",
+            "projectName": "AppSiduscon",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
