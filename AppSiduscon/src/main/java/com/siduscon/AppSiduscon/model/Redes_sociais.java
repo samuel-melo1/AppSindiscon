@@ -24,4 +24,10 @@ public class Redes_sociais{
   private String telegram;
   private String facebook;
   private String youtube;
+
+  @ManyToOne
+  @JoinColumn(nome = "id", nullable=false)
+    private Cadastros_usuario cadastros_usuario;
+
+
 }

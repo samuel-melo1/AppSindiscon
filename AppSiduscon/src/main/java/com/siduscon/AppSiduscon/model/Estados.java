@@ -20,5 +20,8 @@ public class Estados{
 
   private String nome;
   private String abreviacao;
+
+  @OneToMany(mapped="Estados")
+  Private List<Cidades> cidades;
     
 }

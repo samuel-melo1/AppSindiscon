@@ -20,5 +20,10 @@ public class Cidades{
 
   private String nome;
   private String abreviacao;
-    
+
+  @OneToMany(mappedBy = "Cidades")    
+  private List<Cadastros_usuario> cadastros_usuarios;
+
+  @ManyToOne(nome = "id_estado", nullable=false)
+    private Estados estado;
 }

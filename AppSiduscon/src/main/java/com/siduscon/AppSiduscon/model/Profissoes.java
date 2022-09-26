@@ -23,4 +23,6 @@ public class Profissoes{
   private int voto_qualidade;
   private String diretorio;
     
+  @OneToMany(mappedBy= "Profissoes")
+  private List<Cadastros_usuario> cadastros_usuarios;
 }
