@@ -1,4 +1,19 @@
 {
+
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-AppSidusconApplication<AppSiduscon>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.siduscon.AppSiduscon.AppSidusconApplication",
+            "projectName": "AppSiduscon",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
+
   // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
@@ -18,3 +33,4 @@
     }
   ]
 }
+
